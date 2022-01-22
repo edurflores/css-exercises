@@ -1,0 +1,18 @@
+.odd { /* Class selector */
+    background-color: rgb(255,192,203);
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+#segu { /* ID selector */
+    color: rgb(0,0,255);
+    font-size: 36px;
+}
+
+#cuarto {
+    background-color: rgb(0,255,0);
+    font-size: 24px;
+}
+
+.cool { /* Multiple classes: como en HTML sale odd cool, tiene dos clases (odd y cool) asi que aplica declaraciones de odd y las de cool aca */
+    font-size: 24px;
+}
