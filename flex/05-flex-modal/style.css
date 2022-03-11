@@ -20,6 +20,18 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -33,6 +45,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -43,6 +56,7 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
+  margin-left: auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,6 +65,7 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  margin-top: 16px; /* Hubiese sido lo mismo si en vez ponia al texto margin-bottom: 16px */
 }
 
 button.continue {
